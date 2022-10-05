@@ -2,7 +2,7 @@ body {
     text-align: center;
 }
 /* navbar */
-.navbar-nav
+
 /* slidebar */
 .navbar-nav {
     text-align: right;
@@ -66,7 +66,7 @@ body {
     margin: 0 auto 30px;
 }
 img {
-    width: 250px;
+    width: 200px;
 }
 .col-sm-6 {
     max-width: 50%;
