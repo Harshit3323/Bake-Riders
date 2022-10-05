@@ -9,7 +9,7 @@ body {
 }
 #slider {
   position: relative;
-  max-width: 62.5rem;
+  max-width: 700px;
   max-height: 25rem;
   margin: 0 auto 100px;
   overflow: hidden;
@@ -33,7 +33,7 @@ body {
   float: left;
 }
 #slider ul li img{
-  width: 62.5rem;
+  width: 700px;
   height: 25rem;
 }
  
@@ -66,7 +66,7 @@ body {
     margin: 0 auto 30px;
 }
 img {
-    width: 200px;
+    width: 175px;
 }
 .col-sm-6 {
     max-width: 50%;
