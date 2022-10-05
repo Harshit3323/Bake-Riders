@@ -14,7 +14,7 @@ var responsiveSlider = function() {
     
     var prevSlide = function() {
       if(count > 1) {
-        count = count - 2;
+        count = count - 1;
         slideList.style.left = "-" + count * sliderWidth + "px";
         count++;
       }
