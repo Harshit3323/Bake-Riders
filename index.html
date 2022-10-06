@@ -4,29 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@700&display=swap"rel="stylesheet"/>
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
+    <!-- Font awesome -->
     <link rel="shortcut icon" href="Icons/favicon_io/favicon-32x32.png" type="favicon_io/favicon.ico">
-    <script src="https://kit.fontawesome.com/2c264a7af9.js"
-      crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2c264a7af9.js" crossorigin="anonymous"></script>
     <script defer src="https://use. fontawesome. com/releases/v5.0.7/js/all.js"></script>
+    <!-- Javascript-->
+    <script src="script.js"></script>
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
     <title>Bake Riders</title>
   </head>
   <body>
     <!-- Navbar -->
     <section class="title">
       <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg pb-5">
+        <nav class="navbar navbar-expand-lg">
           <a class="navbar-brand" href="">Bake Riders</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -37,21 +37,30 @@
               <li class="nav-item dropdown ">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Flavours</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Pineapple</a></li>
+                  <li><a class="dropdown-item" href="#">Butterscotch</a></li>
+                  <li><a class="dropdown-item" href="#">Chocolate</a></li>
+                  <li><a class="dropdown-item" href="#">Mixed Fruits</a></li>
+                  <li><a class="dropdown-item" href="#">Dark Truffle</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="#">Create Your Own Cake</a></li>
                 </ul>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="">Contact Us</a>
               </li>
             </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
           </div>
         </nav>
       </div>
     </section>
-    <!-- slider -->
+    <!-- main -->
+    <section class="main  container-fluid">
+      <!-- slider -->
     <div id="slider">
       <ul id="slideWrap"> 
         <li><img src="https://cdn.dotpe.in/reports/store/27316/promo-banner/2IDXHHQJXCGQNPMQTG" alt=""></li>
@@ -63,9 +72,6 @@
       <a id="prev" href="#"><i class="fa-solid fa-chevron-left"></i></a>
       <a id="next" href="#"><i class="fa-solid fa-chevron-right"></i></a>
     </div>	
-    <script src="script.js"></script>
-    <!-- main -->
-    <section class="main  container-fluid">
       <h1>Categories</h1>
       <div class="row ">
         <div class="col-lg-3 col-md-4 col-sm-6">
@@ -164,7 +170,6 @@
             <h5>Cake Décor</h5>
           </a>
         </div>
-
       </div>
     </section>
     <section class="footer">
@@ -173,15 +178,5 @@
         <p>Harshit Gulati	&#169;</p>
       </div>
     </section>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-      crossorigin="anonymous"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
-      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
-      crossorigin="anonymous"></script>
-
   </body>
 </html>
